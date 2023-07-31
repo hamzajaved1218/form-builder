@@ -128,7 +128,7 @@ const FormDesigner = () => {
             <div className="mt-5">
               <label
                 htmlFor="form_name"
-                className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                className="mb-2 block text-sm font-medium text-black dark:text-white"
               >
                 Form name
               </label>
