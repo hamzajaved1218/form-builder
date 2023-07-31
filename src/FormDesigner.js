@@ -150,14 +150,14 @@ const FormDesigner = () => {
                 <div>
                   <label
                     htmlFor="nameInput"
-                    className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-medium text-gray-900   "
                   >
                     Name
                   </label>
                   <input
                     type="text"
                     id="nameInput"
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500   dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                     placeholder="John"
                     required
                     value={name}
@@ -168,13 +168,13 @@ const FormDesigner = () => {
                 <div>
                   <label
                     htmlFor="countries"
-                    className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-medium text-gray-900 "
                   >
                     Type
                   </label>
                   <select
                     id="countries"
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500   dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                     value={option}
                     onChange={(e) => setOption(e.target.value)}
                   >
@@ -195,14 +195,14 @@ const FormDesigner = () => {
                   <div className="mt-5">
                     <label
                       htmlFor="optionInput"
-                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 "
                     >
                       Option
                     </label>
                     <input
                       type="text"
                       id="optionInput"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500   dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                       placeholder="Enter options separated by comma"
                       onChange={(e) => setOption(e.target.value)}
                     />
@@ -248,14 +248,14 @@ const FormDesigner = () => {
                           <div>
                             <label
                               htmlFor="maxInput"
-                              className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                              className="mb-2 block text-sm font-medium text-gray-900 "
                             >
                               Max
                             </label>
                             <input
                               type="number"
                               id="maxInput"
-                              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500   dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                               placeholder=""
                               value={max}
                               onChange={(e) => setMax(e.target.value)}
@@ -265,28 +265,28 @@ const FormDesigner = () => {
                         <div className="mt-3">
                           <label
                             htmlFor="minInput"
-                            className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                            className="mb-2 block text-sm font-medium text-gray-900 "
                           >
                             Min
                           </label>
                           <input
                             type="number"
                             id="minInput"
-                            className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                            className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500   dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                             placeholder=""
                           />
                         </div>
                         <div className="mt-3">
                           <label
                             htmlFor="maxLengthInput"
-                            className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                            className="mb-2 block text-sm font-medium text-gray-900 "
                           >
                             MaxLength
                           </label>
                           <input
                             type="number"
                             id="maxLengthInput"
-                            className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                            className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500   dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                             placeholder=""
                           />
                         </div>
