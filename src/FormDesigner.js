@@ -387,7 +387,7 @@ const FormDesigner = () => {
                       {fields.map((field, index) => (
                         <tr
                           key={index}
-                          className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600"
+                          className="border-b bg-white hover:bg-gray-50 "
                         >
                           <td className="w-4 p-4">
                             <div className="flex items-center">
